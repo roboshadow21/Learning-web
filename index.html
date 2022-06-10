@@ -7,30 +7,32 @@
     <title>Мое резюме</title>
     <link rel="shortcut icon" href="https://proprikol.ru/wp-content/uploads/2021/02/kliparty-krasivye-kartinki-59.jpg">
     <link href="styles.css" rel="stylesheet" type="text/css">
-    <script language="JavaScript" src="js/script.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/slides.js" defer></script>
+<!--      <script type="text/javascript">-->
+<!--    let userName = prompt("Как Вас зовут?", "Имя");-->
+<!--        function showMessage() {-->
+<!--            let message = 'Привет, ' + userName;-->
+<!--            alert(message);-->
+<!--        }-->
+<!--        showMessage();-->
+<!--  </script>-->
 </head>
 <body>
-      <button id="toggle-theme-btn"><img src="/images/pict2.png" alt="best photo>" id="toggle-theme-image"></button>
-          <script>let name = prompt('Enter name: ');
-          alert('Hello' + ' ' + name);
-          </script>
+
       <div class="container">
 
-  <div class="slides">
-    <img src="images/autumn.png" alt="first" class="block">
-    <img srs="images/fireworks.jpg" alt="second">
-    <img srs="images/fractal-1.png" alt="third">
-  </div>
-  <button class="btnRight">Right</button>
-  <script src="js/slides.js" class="btnRight" defer></script>
-
+      <button id="toggle-theme-btn"><input type="image" src="images/pict2.png" alt="best photo>" id="toggle-theme-image"></button>
     <div class="header">
+
         <h1 id="up">Страница моего резюме</h1>
             <hr class="hr-line">
+
     </div>
     <div class="menu">
         <div class="photo">
-<!--        <button id="toggle-theme-btn"><img src="pict2.png" alt="best photo>" id="toggle-theme-image"></button>-->
+
+<!--            <button id="toggle-theme-btn"><input type="image" src="images/pict2.png" alt="best photo>" id="toggle-theme-image"></button>-->
 
         <a href=""><img class="img-left"
              src="https://avatars.mds.yandex.net/i?id=0096309a22d51bee8285156c9e22709c-5865525-images-thumbs&n=13"></a>
@@ -47,20 +49,18 @@
 
     </ul>
     </div>
+
+
     <div class="content">
     <hr class="hr-line">
 
-<!-- <div class="slides">-->
-<!--  <img src="images/autumn.png" alt="first" class="block">-->
-<!--  <img srs="images/fireworks.jpg" alt="second">-->
-<!--  <img srs="images/fractal-1.png" alt="third">-->
-<!--</div>-->
-<!--<button class="btnRight">Right</button>-->
-<!--<script src="js/slides.js" class="btnRight" defer></script>-->
+     <div class="slides">
+      <img src="images/autumn.png" class="block" alt="first">
+      <img srs="images/fireworks.jpg" alt="second">
+      <img srs="images/fractal-1.png" alt="third">
+    </div>
+         <button class="btnSlide">Сменить изображение</button>
 
-<!--    <script>let name = prompt('Enter name: ');-->
-<!--    alert('Hello' + ' ' + name);-->
-<!--    </script>-->
 
     <p>Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem
         ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem
@@ -110,10 +110,10 @@
     <hr class="hr-line">
     <div class="footer">
         <div class="right">
-    <a href="#up">Перейти вверх страницы</a>
+          <a href="#up">Перейти вверх страницы</a>
         </div>
         <div class="left">
-    <a href="">Все права защищены (с)</a>
+          <a href="">Все права защищены (с)</a>
         </div>
      </div>
 
