@@ -117,8 +117,8 @@ background: var(--tongle);
 }
 
 .slides {
-  width: 1160px;
-  height: 575px;
+  width: 600px;
+  height: 300px;
   /* position: relative; */
   margin: 21px 0px 6px 50px;
 }
