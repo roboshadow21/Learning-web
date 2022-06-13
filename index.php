@@ -17,6 +17,9 @@
 <!--        }-->
 <!--        showMessage();-->
 <!--  </script>-->
+<!--    <?php-->
+<!--    echo "Hello!"-->
+<!--    ?>-->
 </head>
 <body>
 
@@ -62,26 +65,10 @@
          <button class="btnSlide">Сменить изображение</button>
 
 
-    <p>Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem
-        ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem
-        ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem
-        ipsumLorem ipsumLorem ipsumLorem ipsum
-    </p>
-        <p>Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem
-        ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem
-        ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem
-        ipsumLorem ipsumLorem ipsumLorem ipsum
-    </p>
-    <p>Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem
-        ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem
-        ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem
-        ipsumLorem ipsumLorem ipsumLorem ipsum
-    </p>
-    <p>Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem
-        ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem
-        ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem
-        ipsumLorem ipsumLorem ipsumLorem ipsum
-    </p>
+    <p>Всем привет! Давайте знакомиться</p>
+    <p>Меня зовут Алексей.</p>
+    <p>Живу в Москве.</p>
+    <p>Учусь программированию</p>
     <p>Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem
         ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem
         ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem
