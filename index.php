@@ -1,3 +1,12 @@
+<?php
+$data = include_once('datainfo.php');
+ $startData = $data['about'];
+?>
+<?php
+$contacts = include_once('contacts.php');
+ $startData = $contacts['contacts'];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,16 +74,16 @@
          <button class="btnSlide">Сменить изображение</button>
 
 
-    <p>Всем привет! Давайте знакомиться</p>
-    <p>Меня зовут Алексей.</p>
-    <p>Живу в Москве.</p>
-    <p>Учусь программированию</p>
+    <p><?=$startData['hello']?></p>
+    <p><?=$startData['myname']?></p>
+    <p><?=$startData['info']?></p>
+    <p><?=$startData['hobbies']?></p>
     <p>Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem
         ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem
         ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem
         ipsumLorem ipsumLorem ipsumLorem ipsum
     </p>
-    <p id="About me">Меня зовут Алексей. Живу в Москве. Учусь в
+    <p> id="About me">Меня зовут Алексей. Живу в Москве. Учусь в
         GeekBrains на факультете "Разработчик программист"
     </p>
     <p>Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem
@@ -87,10 +96,9 @@
         ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem
         ipsumLorem ipsumLorem ipsumLorem ipsum
     </p>
-    <p id="Contacts">Adress: 7404 Howell Cliffs Apt. 438 Lake Royceville, MI 19821-9898
-       e-mail: bartell.abner@cormier.org
-       phone: 266(36)060-47-69
-    </p>
+    <p> id="Contacts"><?=$startData['address']?></p>
+       <p><?=$startData['e-mail']?></p>
+       <p><?=$startData['phone']?></p>
         <br>
     </div>
     </div>
